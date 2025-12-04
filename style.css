@@ -2,3 +2,37 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  background: linear-gradient(135deg, #f7f7f8 0%, #9028f7 100%);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.main-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(222, 155, 155, 0.2);
+}
+
+.header-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+}
+
+.form-section {
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.list-section {
+  padding: 30px;
+}
+
+@media (min-width: 992px) {
+  .form-section {
+    border-right: 2px solid #dee2e6;
+  }
+}
